@@ -1,0 +1,34 @@
+<OpenMD version=2>
+  <MetaData>
+molecule{
+    name = "Ar";
+    atom[0]{
+        type = "Ar";
+        position(0.0, 0.0, 0.0);
+    }
+}
+component{
+    type = "Ar";
+    nMol = 2;
+}
+forceField = "LJ";
+ensemble = "NVE";
+dt = 1.0;
+runTime = 1e4;
+sampleTime = 1000;
+statusTime = 1;
+## Last run using OpenMD Version: 2.2 Revision: RELEASE
+  </MetaData>
+  <Snapshot>
+    <FrameData>
+        Time: 0
+        Hmat: {{ 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 }}
+  Thermostat: 0 , 0
+    Barostat: {{ 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 }}
+    </FrameData>
+    <StuntDoubles>
+         0      pv                  0                  0                  1 -5.000000e-01  0.000000e+00  0.000000e+00
+         1      pv                  0                  0                 -1  5.000000e-01  0.000000e+00  0.000000e+00
+    </StuntDoubles>
+  </Snapshot>
+</OpenMD>

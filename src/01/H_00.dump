@@ -1,0 +1,21 @@
+<OpenMD version=2>
+  <MetaData>
+molecule{
+    name = "Ar";
+    atom[0]{
+        type = "Ar";
+        position(0.0, 0.0, 0.0);
+    }
+}
+component{
+    type = "Ar";
+    nMol = 2;
+}
+forceField = "LJ";
+ensemble = "NVE";
+dt = 1.0;
+runTime = 1e4;
+sampleTime = 1000;
+statusTime = 1;
+## Last run using OpenMD Version: 2.2 Revision: RELEASE
+  </MetaData>
